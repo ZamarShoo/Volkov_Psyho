@@ -33,6 +33,12 @@ h1 {
   font-size: 70px;
 }
 
+.h_bigger {
+  font-family: 'Prata', serif;
+  font-size: 80px;
+  color: white;
+}
+
 h2 {
   font-family: 'Prata', serif;
   font-size: 35px;
@@ -48,6 +54,26 @@ h4 {
   font-size: 20px;
   color: #00162f;
   line-height: 30px;
+}
+
+.button {
+  display: block;
+  width: 320px;
+  height: 64px;
+  text-align: center;
+  font-family: 'Helvetica Neue Cyr Bold';
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.button--white {
+  color: white;
+  border: 2px solid white;
+}
+
+.button--blue {
+  color: #131728;
+  border: 2px solid #131728;
 }
 
 hr {
@@ -77,6 +103,13 @@ ul {
   margin-top: -52px;
 }
 
+.line__ver {
+  height: 400px;
+  width: 2px;
+  position: absolute;
+  margin-top: 20px;
+}
+
 .dark {
   color: #131728;
 }
@@ -93,13 +126,21 @@ ul {
   background-color: white;
 }
 
+.gray--back {
+  background-color: #888a90;
+}
+
 section {
   width: 1110px;
-  margin: 120px auto 0;
+  margin: 0 auto;
 }
 
 .line--up {
   margin-top: -150px;
+}
+
+.up__space {
+  margin-top: 120px;
 }
 
 .header-backcolor {
@@ -199,7 +240,6 @@ header {
 }
 
 footer {
-  margin-top: 100px;
   width: 100%;
   padding: 100px 0 0;
   background-image: url("../img/bg-footer.png");
@@ -358,48 +398,8 @@ label > span {
   color: #646464;
 }
 
-.posts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.post {
-  width: 350px;
-  height: 550px;
-  border: 2px solid #242d47;
-  position: relative;
-  margin-bottom: 70px;
-  box-shadow: 0 5px 20px rgba(0, 22, 47, 0.4);
-}
-
-.post img {
-  object-fit: fill;
-}
-
-.post__body {
-  padding: 30px;
-}
-
-.post__body h4 {
-  margin-bottom: 10px;
-}
-
-.post__body p {
-  font-family: 'Helvetica Neue Cyr Roman';
-  line-height: 23px;
-  font-size: 15px;
-}
-
-.post__body a {
-  position: absolute;
-  margin-bottom: 52px;
-  bottom: 0;
-  text-decoration: underline;
-  font-size: 15px;
-  line-height: 23px;
-  font-family: 'Helvetica Neue Cyr Bold';
-  color: #00162f;
+.adress__a:last-child {
+  margin-bottom: 100px;
 }
 
 .price {
@@ -479,4 +479,126 @@ label > span {
 
 .price__read img {
   padding-left: 10px;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post {
+  width: 350px;
+  height: 550px;
+  border: 2px solid #242d47;
+  position: relative;
+  margin-bottom: 70px;
+  box-shadow: 0 5px 20px rgba(0, 22, 47, 0.4);
+}
+
+.post img {
+  object-fit: fill;
+}
+
+.post__body {
+  padding: 30px;
+}
+
+.post__body h4 {
+  margin-bottom: 10px;
+}
+
+.post__body p {
+  font-family: 'Helvetica Neue Cyr Roman';
+  line-height: 23px;
+  font-size: 15px;
+}
+
+.post__body a {
+  position: absolute;
+  margin-bottom: 52px;
+  bottom: 0;
+  text-decoration: underline;
+  font-size: 15px;
+  line-height: 23px;
+  font-family: 'Helvetica Neue Cyr Bold';
+  color: #00162f;
+}
+
+.header__slide {
+  padding: 220px 0 0;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.header__slide__img {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.header__slide__left {
+  width: 950px;
+}
+
+.header__slide__right img {
+  position: absolute;
+}
+
+.header__slide__up {
+  font-family: 'Helvetica Neue Cyr Bold';
+  font-size: 14px;
+  color: #888a90;
+  letter-spacing: 0.1em;
+}
+
+.header__slide__under {
+  font-family: 'Helvetica Neue Cyr Roman';
+  font-size: 18px;
+  line-height: 27px;
+  color: #b5b6b9;
+  width: 465px;
+  margin-top: 25px;
+}
+
+.button--first__slide {
+  margin-top: 55px;
+}
+
+.scrollto {
+  font-family: 'Helvetica Neue Cyr Medium';
+  font-size: 14px;
+  color: #888a90;
+  letter-spacing: 0.1em;
+  margin-top: 180px;
+}
+
+.header_quote {
+  margin-top: 400px;
+  width: 320px;
+  font-family: 'Prata', serif;
+  color: #888a90;
+  font-size: 18px;
+}
+
+.header_quote img {
+  margin-top: -35px;
+}
+
+.header_quote p {
+  font-size: 22px;
+  line-height: 0.02em;
+  margin-top: 40px;
+}
+
+.header__line {
+  height: 1px;
+  right: 0;
+  width: 1000px;
+  margin-top: 0px;
+  margin-right: -860px;
+  color: #34343d;
 }
