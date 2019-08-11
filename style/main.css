@@ -676,6 +676,7 @@ label > span {
 .rectangle {
   position: relative;
   margin-top: 40px;
+  z-index: 6;
 }
 
 .rectangle img {
@@ -698,6 +699,18 @@ label > span {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.bottom__r-col img {
+  position: absolute;
+  margin-top: -140px;
+  margin-left: 280px;
+  z-index: 3;
+}
+
+.diplom {
+  position: relative;
+  z-index: 6;
 }
 
 .bottom__l-col {

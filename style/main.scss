@@ -153,6 +153,7 @@
 .rectangle {
     position: relative;
     margin-top: 40px;
+    z-index: 6;
 
     img {
         position: absolute;
@@ -175,6 +176,18 @@
     position: absolute;
     top: 0;
     right: 0;
+
+    img {
+        position: absolute;
+        margin-top: -140px;
+        margin-left: 280px;
+        z-index: 3;
+    }
+}
+
+.diplom {
+    position: relative;
+    z-index: 6;
 }
 
 .bottom__l-col {
