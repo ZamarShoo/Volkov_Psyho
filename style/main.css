@@ -653,7 +653,76 @@ label > span {
 
 .about {
   background-image: url("../img/bg-footer.png");
-  height: 600px;
+  padding: 100px 0 150px;
+}
+
+.about__top {
+  display: flex;
+}
+
+.about__l-col {
+  width: 590px;
+  margin-right: 90px;
+}
+
+.about__l-col p {
+  margin-top: 20px;
+  color: #7b7d86;
+  font-family: 'Helvetica Neue Cyr Roman';
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.rectangle {
+  position: relative;
+  margin-top: 40px;
+}
+
+.rectangle img {
+  position: absolute;
+  margin-top: -40px;
+}
+
+.rectangle__img {
+  width: 498px;
+  height: 618px;
+  background-color: #0a0c15;
+  margin-left: 40px;
+}
+
+.about__bottom {
+  position: relative;
+}
+
+.bottom__r-col {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom__l-col {
+  width: 540px;
+  margin-top: 100px;
+}
+
+.bottom__l-col h2 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.bottom__l-col p {
+  font-family: 'Helvetica Neue Cyr Roman';
+  font-size: 15px;
+  line-height: 24px;
+  color: #7b7d86;
+}
+
+.diplom {
+  width: 445px;
+  height: 240px;
+  border: 1px solid white;
+  background-color: #131627;
 }
 
 .solutions {
