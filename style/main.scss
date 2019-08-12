@@ -251,3 +251,46 @@
         color: #7b7d86;
     }
 }
+
+.diploms__positions {
+    right: 0;
+    width: 445px;
+    height: 240px;
+    border: 1px solid white;
+    position: relative;
+    z-index: 6;
+}
+
+.diplom__arrow {
+    width: 445px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+
+    .pre-next {
+        background-image: url('../img/bg-footer.png');
+        width: 40px;
+        height: 29px;
+        outline: none;
+        border: 0px;
+        cursor: pointer;
+
+        img {
+            margin-top: -15px;
+            margin-left: 0px;
+            display: flex;
+        }
+    }
+
+    .next img {
+        transform: rotate(180deg)
+    }
+}
+
+.diploms__arrow {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Prata', serif;
+}
