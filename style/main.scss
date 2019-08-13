@@ -142,5 +142,10 @@
 }
 
 @media screen and (max-width: 950px) {
-    
+    .scrollto {
+        display: none;   
+    }
+    .header__slide__left > .gray--back {
+        display: none; 
+    }
 }
