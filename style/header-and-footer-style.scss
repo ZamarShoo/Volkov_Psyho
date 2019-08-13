@@ -16,11 +16,33 @@
     opacity: 0;
 }
 
-header {
+nav {
     margin: 0 auto;
-    display: flex;
-    max-width: 1337px;
-    position: relative;
+    width: 100%;
+
+    .navigation {
+        display: flex;
+        position: relative;
+        max-width: 1337px;
+        margin: 0 auto;
+    }
+}
+
+.fixed {
+    position: fixed;
+    background-color: #131627;
+
+    .logo {
+        margin-top: 0px;
+    }
+
+    .header__number {
+        margin-top: 15px;
+    }
+
+    .header__navigation {
+        margin-top: -20px;
+    }
 }
 
 .header__number {

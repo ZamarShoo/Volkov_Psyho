@@ -10,24 +10,44 @@
     <title>Index</title>
 </head>
 <body>
+    <!------------popup------------>
+    <div class="popup overlay_popup"></div>
+    <div class="popup__form" id="popup_open">
+        <form action="POST">
+            <h2>Оставить заявку</h2>
+            <label>
+                <input type="text" placeholder="Ваше имя">
+            </label>
+            <label>
+                <input type="text" id="number" placeholder="Ваш номер телефона">
+            </label>
+            <label>
+                <input type="button" class="button button--blue">
+                <span>Отправить</span>
+            </label>
+            <p>Нажимая на кнопку, Вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+        </form>
+    </div>
      <!------------header------------>
      <div class="header-container">
-        <header>
-        <div class="logo"><h2><a href="index.html">Volkov</a></h2></div>
-        <div class="header__number">
-            <a class="header__number__phone" href="tel:+79451234568">+7 945 123 45 68</a>
-            <div class="line--vertical"></div>
-            <a class="header__number__scroll" href="">Заказать звонок</a>
+        <nav>
+        <div class="navigation">
+            <div class="logo"><h2><a href="index.html">Volkov</a></h2></div>
+                <div class="header__number">
+                <a class="header__number__phone" href="tel:+79451234568">+7 945 123 45 68</a>
+                <div class="line--vertical"></div>
+                <a class="header__number__scroll" href="">Заказать звонок</a>
+            </div>
+            <div class="header__navigation">
+                <ul>
+                    <li class="navigation__list"><a href="index.html">ГЛАВНАЯ</a></li>
+                    <li class="navigation__list"><a href="posts.html">МЕТОДИКИ</a></li>
+                    <li class="navigation__list"><a href="price.html">ЦЕНЫ</a></li>
+                    <li class="navigation__list"><a href="contacts.html">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="header__navigation">
-            <ul>
-                <li class="navigation__list"><a href="index.html">ГЛАВНАЯ</a></li>
-                <li class="navigation__list"><a href="posts.html">МЕТОДИКИ</a></li>
-                <li class="navigation__list"><a href="price.html">ЦЕНЫ</a></li>
-                <li class="navigation__list"><a href="contacts.html">КОНТАКТЫ</a></li>
-            </ul>
-        </div>
-    </header>
+    </nav>
     </div>
     <!------------main-------------->
     <main>
@@ -41,7 +61,8 @@
                     Признаный специалист в области психологии, доктор медицины,
                      профессор, заслуженный практик и автор научных работ.
                 </p>
-                <a href="#" class="button button--white button--first__slide">Бесплатная консультация</a>
+                <button id="button__hidden" class="show_popup button--first__slide" rel="popup_open"></button>
+                <a class="button button--white button--first__slide">Бесплатная консультация</a>
                 <p class="scrollto">ЛИСТАЙТЕ ДАЛЬШЕ</p>
                 <div class="line__ver gray--back"></div>
             </div>
@@ -76,6 +97,7 @@
                               ipsam quas, sequi pariatur earum cumque nam nihil minima placeat distinctio
                                deleniti et minus officiis aspernatur. Debitis, atque libero
                 </p>
+                <button id="button__hidden" class="show_popup button--first__slide" rel="popup_open"></button>
                 <a href="#" class="button button--blue button--first__slide">Бесплатная консультация</a>
                 <div class="help__r-col">
                     <img src="./img/02.png" alt="second slide">
@@ -151,6 +173,7 @@
                             <div class="diplom__arrow"></div>
                             </div>
                         </div>
+                        <button id="button__hidden" class="show_popup button--first__slide" rel="popup_open"></button>
                         <a href="#" class="button button--white button--first__slide">Бесплатная консультация</a>
                     </div>
                 </div>
@@ -185,7 +208,10 @@
                         </p>
                     </div>
                 </div>
-                <a href="#" class="button button--blue button--solutions">Бесплатная консультация</a>
+                <p class="button__slim">
+                    <button id="button__hidden" class="show_popup" rel="popup_open"></button>
+                    <a href="#" class="button button--blue button--solutions">Бесплатная консультация</a>
+                </p>
             </section>
         </div>
     </main>
@@ -230,7 +256,6 @@
             </div>
         </section>
     </footer>
-
     <!------------scrips------------>  
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

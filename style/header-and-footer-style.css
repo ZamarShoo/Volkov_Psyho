@@ -15,11 +15,33 @@
   opacity: 0;
 }
 
-header {
+nav {
   margin: 0 auto;
+  width: 100%;
+}
+
+nav .navigation {
   display: flex;
-  max-width: 1337px;
   position: relative;
+  max-width: 1337px;
+  margin: 0 auto;
+}
+
+.fixed {
+  position: fixed;
+  background-color: #131627;
+}
+
+.fixed .logo {
+  margin-top: 0px;
+}
+
+.fixed .header__number {
+  margin-top: 15px;
+}
+
+.fixed .header__navigation {
+  margin-top: -20px;
 }
 
 .header__number {
