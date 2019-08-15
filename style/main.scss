@@ -554,17 +554,24 @@
     .header__slide__up {
         font-size: 12px;
     }
+    .button__slim {
+        position: relative;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .rectangle__img {
-        height: 450px;
+        height: 410px;
+    }
+    .contacts__header > .line__hor {
+        margin-top: -28px;
     }
 }
 
 @media screen and (max-width: 450px) {
     .rectangle__img {
-        height: 400px;
+        height: 470px;
     }
     label > span {
         width: 100%;
@@ -574,5 +581,98 @@
     }
     .button {
         width: 100%;
+    }
+    .header__slide__right {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .header__slide__left {
+        margin-left: 30px;
+        label > span {
+            width: 320px;
+        }
+        .button {
+            width: 320px;
+            margin-right: 0;
+        }
+        #button__hidden {
+            width: 320px;
+        }
+    }
+    .header__line {
+        width: 100px;
+    }
+    .header_quote {
+        margin-left: 30px;
+    }
+    section {
+        padding: 0 30px;
+    }
+    .help__slide {
+        padding: 100px 30px 75px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .rectangle__img {
+        height: 450px;
+    }
+    .price h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .rectangle__img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .rectangle__img {
+        height: 370px;
+    }
+    .header__slide__left .button {
+        width: 260px;
+    }
+    .header__slide__left #button__hidden {
+        width: 260px;
+    }
+    .h_bigger {
+        font-size: 32px;
+    }
+    .header_quote {
+        font-size: 16px;
+        width: 90%;
+    }
+    .header__line {
+        left: 710px;
+    }
+    .header__slide__under {
+        width: 80%;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    .line--up {
+        margin-top: -70px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .first__position {
+        margin-top: 40px;
+    }
+    .post {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 340px) {
+    .rectangle__img {
+        height: 335px;
     }
 }

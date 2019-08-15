@@ -15,7 +15,8 @@
     box-shadow: 0 5px 20px rgba($color: #00162f, $alpha: 0.4);
 
     img {
-        object-fit: fill;
+        object-fit: cover;
+        width: 100%;
     }
 }
 

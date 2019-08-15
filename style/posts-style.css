@@ -14,7 +14,8 @@
 }
 
 .post img {
-  object-fit: fill;
+  object-fit: cover;
+  width: 100%;
 }
 
 .post__body {
