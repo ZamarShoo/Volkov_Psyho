@@ -1522,6 +1522,9 @@ label > span {
 }
 
 @media screen and (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
   .rectangle__img {
     height: 470px;
   }
