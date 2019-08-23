@@ -100,6 +100,38 @@ h4 {
     margin-top: 80px;
 }
 
+.hover__blue, .hover__white {
+    transition: ease-out 0.3s;
+}
+.hover__white:hover {
+    background-color: white;
+    color: #16192a;
+    border: 2px solid #16192a;
+    transition: ease-out 0.3s;
+}
+.hover__blue:hover  {
+    background-color: #16192a;
+    color: white;
+    border: 2px solid white;
+    transition: ease-out 0.3s;
+}
+.header__number__scroll:hover {
+    color: white;
+    transition: ease-out 0.3s;
+}
+.footer__body {
+    input[type="text"]:hover,
+    textarea:hover {
+    border: 2px solid white;
+    transition: ease-out 0.4s;
+    }
+}
+
+input[type="text"]:focus,
+    textarea:focus {
+    border: 2px solid white;
+    }
+
 //--------------------------------------------------------   another
 
 hr {
