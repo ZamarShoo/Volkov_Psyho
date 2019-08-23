@@ -15,7 +15,7 @@ $('.diploms').slick({
   dots: false,
   appendArrows:'.diplom__arrow',
   prevArrow: '<button class="pre-next pre"><img src="./img/right-arrow.png"/></button>',
-  nextArrow: '<button class="pre-next next"><img src="./img/right-arrow.png"/></button>'
+  nextArrow: '<button class="pre-next next"><img src="./img/right-arrow.png"/></button>',
 });
 
 //Header Scroll for desktop

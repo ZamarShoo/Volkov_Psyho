@@ -31,6 +31,9 @@ nav {
 .fixed {
     position: fixed;
     background-color: #131627;
+    height: 90px;
+    padding-top: 20px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.6);
 
     .logo {
         margin-top: 0px;
@@ -140,13 +143,14 @@ nav {
     color: #a2a3aa;
     margin-top: 3px;
     margin-left: 16px;
+    cursor: pointer;
 }
 
 //-------------------------------------------------footer
 
 footer {
     width: 100%;
-    padding: 100px 0 0;
+    padding: 100px 0 70px;
     background-image: url("../img/bg-footer.png")
 }
 
@@ -181,9 +185,10 @@ textarea {
     width: 100%;
     background-image: url('../img/bg-footer.png');
     border: 1px solid #888a92;
-    color: #888a92;
+    color: white;
     font-size: 20px;
     padding-left: 30px;
+    outline: 0;
 }
 input[type="button"] {
     width: 1px;

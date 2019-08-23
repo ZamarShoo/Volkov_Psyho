@@ -4,7 +4,48 @@
 @import "./contacts-style.scss";
 @import "./price-style.scss";
 @import "./posts-style.scss";
+.hover__blue, .hover__white {
+    transition: ease-out 0.3s;
+}
+.hover__white:hover {
+    background-color: white;
+    color: #16192a;
+    border: 1px solid #16192a;
+    transition: ease-out 0.3s;
+}
+.hover__blue:hover  {
+    background-color: #16192a;
+    color: white;
+    border: 1px solid white;
+    transition: ease-out 0.3s;
+}
+.header__number__scroll:hover {
+    color: white;
+    transition: ease-out 0.3s;
+}
+.footer__body {
+    input[type="text"]:hover,
+    textarea:hover {
+    border: 1px solid white;
+    transition: ease-out 0.4s;
+    }
+}
 
+input[type="text"]:focus,
+    textarea:focus {
+    border: 1px solid white;
+    }
+    @media screen and (max-height: 750px) {
+        .line__ver {
+            margin-bottom: -330px;
+        }
+        .header__slide__left {
+            margin-top: -30px;
+        }
+        .scrollto {
+            margin-bottom: 90px;
+        }
+    }
 @media screen and (max-width: 1420px) {
     .header__slide {
         padding: 170px 0 0;
@@ -12,14 +53,11 @@
     .header_quote {
         margin-top: 300px;
     }
-    .scrollto {
-        margin-top: 90px;
-    }
     .help__r-col {
         margin-right: 0px;
     }
     section {
-        width: 900px;
+        width: 1100px;
         margin: 0 auto;
     }
     nav .navigation {
@@ -28,33 +66,43 @@
     .logo {
         margin-right: 60px;
     }
-    .footer__l-col {
-        width: 100%;
-        margin-right: 50px;
-    }
-    .footer__r-col, .footer__r-col p {
-        width: 100%;
-        margin-right: 0px;
-    }
-    .scrollto {
-        margin-top: 110px;
-    }
     .diploms__positions {
-        margin-right: -100px;
+        margin-right: 90px;
     }
     .help__r-col img {
         padding-left: 180px;
     }
     .bottom__r-col img {
-        margin-left: 175px;
+        margin-left: 235px;
+    }
+    .help__r-col {
+        margin-right: 130px;
+    }
+    .solutions img {
+        margin-right: 0px;
+    }
+    .footer__header img {
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 1280px) {
+    section{
+        width: 900px;
+    }
+    .help__r-col {
+        margin-right: 0px;
+    }
     .header_quote {
         margin-top: 300px;
     }
-    .scrollto {
-        margin-top: 90px;
+    .footer__r-col, .footer__r-col p {
+        margin-right: 0px;
+    }
+    .footer__r-col {
+        width: 500px;
+    }
+    .footer__l-col {
+        width: 400px;
     }
     .help__r-col img {
         right: 0;
@@ -117,9 +165,6 @@
     .header__line {
         margin-right: -890px;
     }
-    .scrollto {
-        margin-top: 60px;    
-    }
     h1 {
         font-size: 60px;
     }
@@ -156,9 +201,6 @@
     }
     .header-container{
         display: none;
-    }
-    .scrollto {
-        margin-top: 40px;    
     }
     .header_quote {
         margin-top: 250px;   

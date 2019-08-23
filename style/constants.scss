@@ -72,17 +72,17 @@ h4 {
     font-size: 20px;
     color: #00162f;
     line-height: 30px;
+    font-weight: 400;
 }
 //--------------------------------------------------------   button
 
 .button {
-    display: block;
-    width: 320px;
-    height: 64px;
+    display: inline-block;
     text-align: center;
     font-family: 'Helvetica Neue Cyr Bold';
     font-size: 16px;
-    padding-top: 20px;
+    padding: 20px 60px;
+    cursor: pointer;
 }
 
 .button--white {
@@ -133,7 +133,8 @@ ul {
     height: 400px;
     width: 2px;
     position: absolute;
-    margin-top: 20px;
+    margin-bottom: -300px;
+    bottom: 0;
 }
 
 .dark {
