@@ -1192,9 +1192,12 @@ label > span {
   .header__slide__left {
     width: 550px;
   }
+  .help__slide p {
+    margin-top: 10px;
+  }
 }
 
-@media screen and (max-width: 1066px) and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .hamburger-menu {
     height: 0px;
     display: block;
@@ -1329,16 +1332,16 @@ label > span {
   }
 }
 
-@media screen and (max-width: 1066px) {
-  .scrollto {
-    display: none;
-  }
-  .line__ver {
-    display: none;
-  }
-  .r-col__button p {
-    margin-top: 35px;
-  }
+.scrollto {
+  display: none;
+}
+
+.line__ver {
+  display: none;
+}
+
+.r-col__button p {
+  margin-top: 35px;
 }
 
 @media screen and (max-width: 870px) {
@@ -1354,7 +1357,7 @@ label > span {
   .header__slide {
     height: 750px;
     display: block;
-    padding: 120px 0 0;
+    padding: 120px 20px 0;
   }
   .header_quote {
     margin-top: 50px;
@@ -1401,7 +1404,10 @@ label > span {
     padding: 100px 0 70px;
   }
   .header__slide__left {
-    margin-right: 20px;
+    margin-left: 0px;
+  }
+  .header_quote {
+    margin-left: 0px;
   }
 }
 
@@ -1418,7 +1424,8 @@ label > span {
     margin: 0 auto;
   }
   .h_bigger {
-    font-size: 36px;
+    font-size: 34px;
+    width: 110%;
   }
   .header__slide__under {
     font-size: 15px;
@@ -1437,7 +1444,7 @@ label > span {
     font-size: 30px;
   }
   .help__slide p {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   h3 {
     font-size: 26px;
@@ -1454,5 +1461,19 @@ label > span {
   .diploms__positions {
     width: 100%;
     height: 151px;
+  }
+  .header__slide {
+    padding: 120px 20px 0;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .button {
+    font-size: 14px;
+    padding: 21px 1px;
+    width: 100%;
+  }
+  .header_quote {
+    width: 100%;
   }
 }
