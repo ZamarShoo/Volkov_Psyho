@@ -80,8 +80,9 @@ h4 {
     display: inline-block;
     text-align: center;
     font-family: 'Helvetica Neue Cyr Bold';
-    font-size: 16px;
-    padding: 20px 60px;
+    font-size: 14px;
+    padding: 21px 37px;
+    letter-spacing: 0.08em;
     cursor: pointer;
 }
 
@@ -106,13 +107,13 @@ h4 {
 .hover__white:hover {
     background-color: white;
     color: #16192a;
-    border: 2px solid #16192a;
+    border: 2px solid white;
     transition: ease-out 0.3s;
 }
 .hover__blue:hover  {
     background-color: #16192a;
     color: white;
-    border: 2px solid white;
+    border: 2px solid #16192a;
     transition: ease-out 0.3s;
 }
 .header__number__scroll:hover {
