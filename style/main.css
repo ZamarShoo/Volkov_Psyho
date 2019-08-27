@@ -183,6 +183,7 @@ ul {
 }
 
 section {
+  position: relative;
   width: 1110px;
   margin: 0 auto;
 }
@@ -588,9 +589,16 @@ label > span {
   display: flex;
 }
 
+.about__r-col {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .about__l-col {
   width: 590px;
   margin-right: 50px;
+  height: 570px;
 }
 
 .about__l-col p {
@@ -599,6 +607,7 @@ label > span {
   font-family: 'Helvetica Neue Cyr Roman';
   font-size: 15px;
   line-height: 24px;
+  width: 550px;
 }
 
 .rectangle {
@@ -610,11 +619,13 @@ label > span {
 .rectangle img {
   position: absolute;
   margin-top: -40px;
+  width: 444px;
+  height: 543px;
 }
 
 .rectangle__img {
-  width: 498px;
-  height: 618px;
+  width: 444px;
+  height: 543px;
   background-color: #0a0c15;
   margin-left: 40px;
 }
@@ -1102,6 +1113,14 @@ label > span {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 100px;
+    height: auto;
+  }
+  .about__l-col p {
+    width: 100%;
+  }
+  .about__r-col {
+    position: relative;
+    margin: 100px 0 40px;
   }
   .bottom__l-col {
     margin-left: 0px;
@@ -1231,7 +1250,6 @@ label > span {
     height: 90px;
   }
   .hamburger-menu > .logo {
-    position: fixed;
     margin-left: 15px;
     margin-top: 5px;
     z-index: 2001;
@@ -1240,7 +1258,8 @@ label > span {
     position: fixed;
     z-index: 2000;
   }
-  .header-backcolor > .logo {
+  .header-backcolor > .logo,
+  .header-backcolor > .menu__btn {
     position: fixed;
   }
   #menu__toggle {
@@ -1249,7 +1268,7 @@ label > span {
   .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 30px;
     right: 15px;
     width: 26px;
@@ -1330,18 +1349,18 @@ label > span {
   .menu__item {
     transition-duration: 0.7s;
   }
-}
-
-.scrollto {
-  display: none;
-}
-
-.line__ver {
-  display: none;
-}
-
-.r-col__button p {
-  margin-top: 35px;
+  .scrollto {
+    display: none;
+  }
+  .line__ver {
+    display: none;
+  }
+  .r-col__button p {
+    margin-top: 35px;
+  }
+  .fixed__page {
+    position: fixed;
+  }
 }
 
 @media screen and (max-width: 870px) {

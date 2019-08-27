@@ -130,9 +130,16 @@
   display: flex;
 }
 
+.about__r-col {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .about__l-col {
   width: 590px;
   margin-right: 50px;
+  height: 570px;
 }
 
 .about__l-col p {
@@ -141,6 +148,7 @@
   font-family: 'Helvetica Neue Cyr Roman';
   font-size: 15px;
   line-height: 24px;
+  width: 550px;
 }
 
 .rectangle {
@@ -152,11 +160,13 @@
 .rectangle img {
   position: absolute;
   margin-top: -40px;
+  width: 444px;
+  height: 543px;
 }
 
 .rectangle__img {
-  width: 498px;
-  height: 618px;
+  width: 444px;
+  height: 543px;
   background-color: #0a0c15;
   margin-left: 40px;
 }
