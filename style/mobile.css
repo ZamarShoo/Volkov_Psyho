@@ -209,6 +209,26 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .mobile__no {
+    display: none;
+  }
+  .mobile__yes {
+    display: block;
+    margin-top: 30px;
+  }
+  .price {
+    min-height: 100px;
+  }
+  .price {
+    display: block;
+  }
+  .price__read {
+    margin-top: 65px;
+    top: 0;
+  }
+  .price h2 {
+    width: 460px;
+  }
   .hamburger-menu {
     height: 0px;
     display: block;
@@ -365,6 +385,22 @@
 }
 
 @media screen and (max-width: 820px) {
+  .price h2 {
+    width: 100%;
+  }
+  .mobile__yes {
+    display: block;
+    margin-top: 0px;
+  }
+  .price__left {
+    margin-bottom: 30px;
+  }
+  .price__read {
+    top: auto;
+    left: 0;
+    bottom: 0;
+    margin-left: 75px;
+  }
   .post__full {
     width: 100%;
   }
@@ -426,9 +462,22 @@
   .header_quote {
     margin-left: 0px;
   }
+  .price {
+    padding: 15px 15px 60px;
+  }
+  .price__read {
+    margin-left: 15px;
+  }
+  .price__left {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 550px) {
+  .price h2 {
+    font-size: 36px;
+    line-height: 34px;
+  }
   .r-col__button {
     display: block;
     text-align: center;
@@ -485,6 +534,10 @@
 }
 
 @media screen and (max-width: 430px) {
+  .price h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
   .diplom,
   .diploms__positions {
     height: 151px;
