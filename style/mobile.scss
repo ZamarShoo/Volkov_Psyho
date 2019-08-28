@@ -384,6 +384,9 @@
     .price h2 {
         width: 100%;
     }
+    .price__right {
+        margin-top: 20px;
+    }
     .mobile__yes {
         display: block;
         margin-top: 0px;
@@ -537,7 +540,7 @@
     }
     .diplom,
     .diploms__positions {
-        height: 151px;
+        height: 171px;
     }
 }
 @media screen and (max-width: 370px) {
@@ -548,5 +551,15 @@
     }
     .header_quote {
         width: 100%;
+    }
+    .diplom,
+    .diploms__positions {
+        height: 156px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-height: 1000px) {
+    .header__slide {
+        height: 750px;
     }
 }

@@ -73,7 +73,7 @@ h4 {
   text-align: center;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 14px;
-  padding: 21px 37px;
+  padding: 22px 37px 20px;
   letter-spacing: 0.08em;
   cursor: pointer;
 }
@@ -127,10 +127,17 @@ textarea:focus {
   border: 2px solid white;
 }
 
+label > span:hover {
+  background-color: white;
+  color: #131728;
+  transition: 0.3s ease-in-out;
+}
+
 hr {
   height: 1px;
   width: 100%;
   color: #414451;
+  opacity: .5;
 }
 
 a {

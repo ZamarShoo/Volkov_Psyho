@@ -258,9 +258,18 @@
     right: 0;
     width: 445px;
     height: 240px;
-    border: 1px solid white;
     position: relative;
     z-index: 6;
+}
+
+.slick-slider {
+    margin:0 -15px;
+}
+
+.slick-slide {
+    padding:10px;
+    margin-right:15px;
+    margin-left:15px;
 }
 
 .diplom__arrow {
