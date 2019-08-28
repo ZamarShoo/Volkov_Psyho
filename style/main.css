@@ -423,7 +423,7 @@ label > span {
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 16px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 22px;
 }
 
 .r-col__button {
@@ -464,6 +464,12 @@ label > span {
   color: white;
 }
 
+.footer__under h2 a {
+  font-size: 35px;
+  font-family: 'Prata', serif;
+  color: white;
+}
+
 .header__slide {
   padding: 220px 0 0;
   height: 100vh;
@@ -473,6 +479,7 @@ label > span {
 
 .header__slide__img {
   background-image: url("../img/bg.png");
+  background-color: #131728;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -933,6 +940,7 @@ label > span {
 
 .hide:checked + label > .close {
   display: block;
+  margin-bottom: 10px;
 }
 
 .hide + label,

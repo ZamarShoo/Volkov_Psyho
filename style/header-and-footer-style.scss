@@ -221,7 +221,7 @@ label > span {
     font-family: 'Helvetica Neue Cyr Bold';
     font-size: 16px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 22px;
 }
 
 .r-col__button {
@@ -255,6 +255,12 @@ label > span {
         font-size: 16px;
     }
     .volkov__footer {
+        font-size: 35px;
+        font-family: 'Prata', serif;
+        color: white;
+    }
+
+    h2 a {
         font-size: 35px;
         font-family: 'Prata', serif;
         color: white;

@@ -36,6 +36,7 @@
 
 .hide:checked + label > .close {
   display: block;
+  margin-bottom: 10px;
 }
 
 .hide + label,
